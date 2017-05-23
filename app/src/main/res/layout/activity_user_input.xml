@@ -21,12 +21,12 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Hero's name"
         android:ems="10"
-        android:layout_below="@+id/hopeless"
-        android:layout_alignRight="@+id/generateButton"
-        android:layout_alignEnd="@+id/generateButton"
-        android:id="@+id/emperor"
-        android:hint="Name of bad emperor" />
+        android:id="@+id/hero"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="match_parent"
@@ -41,11 +41,11 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Hero's name"
         android:ems="10"
-        android:id="@+id/hero"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_below="@+id/hopeless"
+        android:layout_alignRight="@+id/generateButton"
+        android:layout_alignEnd="@+id/generateButton"
+        android:id="@+id/emperor"
+        android:hint="Name of bad emperor" />
 
 </RelativeLayout>
